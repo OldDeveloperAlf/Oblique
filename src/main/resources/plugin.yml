@@ -1,0 +1,11 @@
+main: rip.cleo.oblique.example.ExamplePlugin
+name: "oblique"
+version: "${buildVersion}-${buildEnv}"
+author: "Cleo Development"
+website: "http://cleo.rip/"
+commands:
+  example:
+    permission: "oblique.command.example"
+    description: "Open the example menu."
+    usage: "/<command>"
+    aliases: ["examplemenu"]
